@@ -21,7 +21,17 @@
 
 ## Sorting
 
-미정
+2019.08.31까지 예정
+
+외부정렬은 선택사항입니다.
+
+### Quick Sort(Lomuto)
+
+### Merge Sort
+
+### Radix Sort
+
+### Table Sort
 
 ## Hash
 
