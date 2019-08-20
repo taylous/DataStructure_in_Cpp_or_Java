@@ -8,7 +8,7 @@ public class MergeSort {
 		int[] arr = new int[100];
 		
 		for (int i = 0; i < arr.length; i++)
-			arr[i] = random.nextInt(100);
+			arr[i] = random.nextInt(1000);
 
 		print(arr);
 		mergeBU(arr);
@@ -18,12 +18,12 @@ public class MergeSort {
 	static void mergeBU(int[] arr) {
 		for (int i = 1; i < arr.length; i *= 2)
 			for (int j = 0; j < arr.length; j += i * 2)
-				if (j + i - 1 < arr.length - 1 && j + 1 < arr.length - 1)
+				if (j + i - 1 < arr.length - 1)
 					sort(arr, j, j + i - 1, j + i, Math.min(j + i * 2 - 1, arr.length - 1));
 	}
 	
 	static void sort(int[] arr, int lStart, int lEnd, int rStart, int rEnd) {
-		System.out.println(lStart + " " + lEnd + " " + rStart + " " + rEnd);
+//		System.out.println(lStart + " " + lEnd + " " + rStart + " " + rEnd);
 		int[] left = new int[lEnd - lStart + 1];
 		int[] right = new int[rEnd - rStart + 1];
 		int leftC = 0, rightC = 0;
