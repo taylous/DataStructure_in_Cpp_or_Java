@@ -9,18 +9,18 @@ public class RadixSort {
 		}
 		
 		System.out.print("sorting 전 : ");
-		for(int i = 0; i < 20; i++) {
+		for(int i = 0; i < ARRSIZE; i++) {
 			System.out.print(arr[i] + " ");
 		}
 		System.out.println();
 		
 		int reNum = getRadixMax(arr);
-		for(int i = 0, j = 1; i < reNum; i++, j *= 10) {
+		for(int j = 1; j < reNum; j *= 10) {
 			radixSort(arr, j);
 		}
 		
 		System.out.print("sorting 후 : ");
-		for(int i = 0; i < 20; i++) {
+		for(int i = 0; i < ARRSIZE; i++) {
 			System.out.print(arr[i] + " ");
 		}
 		System.out.println();
@@ -53,16 +53,13 @@ public class RadixSort {
 	
 	private static int getRadixMax(int[] list) {
 		int max = list[0];
-		int returnNum = 1;
 		for(int i = 1; i < ARRSIZE; i++) {
 			if(max < list[i]) {
 				max = list[i];
 			}
 		}
 		
-		while((max /= 10) > 0) returnNum++;
-		
-		return returnNum;
+		return max;
 	}
 	
 	static class MyLinkedList {
