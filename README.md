@@ -2,7 +2,7 @@
 
 ​	스터디를 진행하면서 구현한 자료구조들을 Upload하는 공간입니다.
 
-	**[ This repository is the place to upload the data structures implemented while studying. ]**
+	[ This repository is the place to upload the data structures implemented while studying. ]
 
 
 ## List
