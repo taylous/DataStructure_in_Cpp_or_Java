@@ -1,43 +1,100 @@
-# DataStructure in C++
+# DataStructure in C++ OR JAVA
 
-​	스터디를 진행하면서 구현한 자료구조들을 Upload하는 공간입니다.
+​	It is a space to upload the data structures implemented during the study. The data structures here are implemented in C ++ or JAVA. The way users have implemented it is different, so please be aware of this
 
 
-## List
 
- 2019.08.13에 진행한 부분입니다.
+List
+-------
+ This is a progress on 08.13.2019
 
-### Double LinkedList
+### Double LinkedList, Polynomial
 
-### Polynomial
+Taylous : 
+
+[https://github.com/Karmantez/DataStructure_in_Cpp_or_Java/tree/master/Taylous/List]: 
+
+BeautifulBeer : 
+
+[EMPTY]: 
+
+ponta12 : 
+
+[https://github.com/Karmantez/DataStructure_in_Cpp_or_Java/tree/master/ponta12/List]: 
+
+SUSUYONG : 
+
+[https://github.com/Karmantez/DataStructure_in_Cpp_or_Java/tree/master/Suyong/List]: 
+
+
 
 ## Tree
 
-2019.08.18에 진행한 부분입니다.
+This is a progress on 08.18.2019
 
-### Threaded Binary Tree(TBT)
+### Threaded Binary Tree(TBT), Heap
 
-### Heap
+Taylous : 
+
+[https://github.com/Karmantez/DataStructure_in_Cpp_or_Java/tree/master/Taylous/Tree]: 
+
+BeautifulBeer : 
+
+[https://github.com/Karmantez/DataStructure_in_Cpp_or_Java/tree/master/BeautifulBeer/Tree]: 
+
+ponta12 : 
+
+[https://github.com/Karmantez/DataStructure_in_Cpp_or_Java/tree/master/ponta12/Tree]: 
+
+SUSUYONG : 
+
+[Empty]: 
+
+
+
 
 ## Sorting
 
-2019.08.31까지 예정
+ Sorting did not proceed separately.
 
-외부정렬은 선택사항입니다.
+### Quick(Lomuto), Merge ,Radix ,Table Sort
 
-### Quick Sort(Lomuto)
+Taylous : 
 
-### Merge Sort
+[https://github.com/Karmantez/DataStructure_in_Cpp_or_Java/tree/master/Taylous/Sorting]: 
+BeautifulBeer : 
 
-### Radix Sort
+[https://github.com/Karmantez/DataStructure_in_Cpp_or_Java/tree/master/BeautifulBeer/Sorting]: 
 
-### Table Sort
+ponta12 : 
+
+[https://github.com/Karmantez/DataStructure_in_Cpp_or_Java/tree/master/ponta12/Sorting]: 
+
+SUSUYONG : 
+
+[https://github.com/Karmantez/DataStructure_in_Cpp_or_Java/tree/master/Suyong/Sort]: 
+
+
 
 ## Hash
 
-미정
+This is a progress on 08.29.2019
+
+From then on, we changed the way the study proceeded to solve problems using data structures.
+
+### Separate Chaining
+
+Taylous : 
+
+[https://github.com/Karmantez/DataStructure_in_Cpp_or_Java/blob/master/Taylous/Problem/1302.java]: 
+
+BeautifulBeer : 
+
+ponta12 :
+
+SUSUYONG : 
 
 
 
 
-> 문의는 taylous99@gmail.com 으로 주세요.
+> Please contact taylous99@gmail.com.
